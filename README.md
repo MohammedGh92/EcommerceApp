@@ -52,3 +52,6 @@
 * 3 ) Run 'yarn install' from the command line.
 * 4 ) Run 'react-native link' from the command line.
 * 5 ) Run 'react-native run-android' for android and 'react-native run-ios' for iOS from the command line.
+
+## App direct download link
+ * https://drive.google.com/file/d/1IFN657tpdll8dZN0IQR2rnEVm4pmrsGZ/view?usp=sharing
