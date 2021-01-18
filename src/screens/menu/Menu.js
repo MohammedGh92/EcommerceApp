@@ -1,4 +1,5 @@
 import React from 'react';
+import { Linking } from 'react-native'
 import { ScrollableContainer } from '../../components/';
 import Item from '../../components/menu/Item';
 import { AppNavigation, AppView, AppImage } from '../../common';
@@ -37,7 +38,7 @@ const Menu = () => {
   return (
     <ScrollableContainer header={false}>
 
-      <AppView height={20} width={80} center marginBottom={10}>
+      <AppView height={5} width={80} center marginBottom={25}>
 
         <AppImage center resizeMode="contain" marginTop={30} height={10} width={70}
           source={require('../../assets/imgs/ofertaLogo.png')}></AppImage>
@@ -77,6 +78,22 @@ const Menu = () => {
         onPress={() => AppNavigation.push({ name: 'orders' })}
         title={'Orders'} name="cart" type="zocial"
       />
+
+      <Item
+        onPress={() => share("https://play.google.com/store/apps/details?id=com.mhmdgh.ecommerceapp")}
+        title={'Share'} name="sharealt" type="ant"
+      />
+
+      <Item
+        onPress={() => AppNavigation.push({ name: 'aboutus' })}
+        title={'About'} name="page" type="foundation"
+      />
+
+      <Item
+        onPress={() => Linking.openURL('mailto:mohammedghabyen@gmail.com')}
+        title={'Contact'} name="mail" type="ant"
+      />
+
 
       <Item
         onPress={() => logout()}

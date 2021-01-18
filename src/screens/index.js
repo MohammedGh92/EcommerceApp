@@ -11,6 +11,7 @@ import Menu from './menu/Menu';
 import SignIn from './signIn/SignIn';
 import SignUp from './signUp/SignUp';
 import Orders from './orders/Orders';
+import AboutUs from './aboutus/AboutUs';
 
 export default () => {
 
@@ -25,5 +26,6 @@ export default () => {
   AppNavigation.registerScreen('signin', SignIn);
   AppNavigation.registerScreen('signup', SignUp);
   AppNavigation.registerScreen('orders', Orders);
+  AppNavigation.registerScreen('aboutus', AboutUs);
 
 };
