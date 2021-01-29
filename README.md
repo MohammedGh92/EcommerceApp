@@ -3,7 +3,7 @@
 * This application is developed using React-Native.
 
 ## Google play & Appstore links:
- [![](./images/googleplay.png)](https://play.google.com/store/apps/details?id=com.mhmdgh.ecommerceapp) [![](./images/appstore.png)]()
+ [![](./images/googleplay.png)](https://play.google.com/store/apps/details?id=com.mhmdgh.ecommerceapp) [![](./images/appstore.png)](#)
 
 
 ### photo of The Application
